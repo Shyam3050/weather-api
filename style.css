@@ -5,6 +5,7 @@
 }
 .wether-api {
   position: relative;
+  background-color: red;
   background-image: url("./src/image/day/aditya-vyas-PzhmEp_aDU4-unsplash.jpg");
   background-size: cover;
   background-position: center;
