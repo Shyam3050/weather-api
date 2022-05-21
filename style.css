@@ -142,6 +142,9 @@
   .panel {
     overflow-y: unset;
   }
+  .container h1 {
+    margin-bottom: 3rem;
+  }
 }
 @media screen and (max-width: 500px) {
   html {
