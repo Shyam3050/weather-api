@@ -145,7 +145,7 @@
     font-size: 12px;
   }
   body {
-    overflow-x: unset;
+    overflow-x: hidden;
   }
 }
 @media screen and (max-width: 300px) {
