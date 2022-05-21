@@ -142,7 +142,7 @@
   .panel {
     overflow-y: unset;
   }
-  .container h1 {
+  .container .theweather {
     margin-bottom: 3rem;
   }
 }
