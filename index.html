@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shyam-wether-app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wether-api">
+      <div class="container">
+        <h1>The wether</h1>
+        <div>
+          <h1 class="temp">16&#176;</h1>
+          <div class="city-time">
+            <h2 class="name">London</h2>
+            <small>
+              <span class="time">16:20</span>
+              <span class="date">friday 16 2022</span>
+            </small>
+          </div>
+
+          <div class="wether">
+            <img src="./src/icon/day/113.png" alt="" width="50" height="50" />
+            <span>cloudy</span>
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+        <form id="locationInput">
+          <input type="text" placeholder="Enter Location" class="search" />
+          <button class="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <ul class="cities">
+          <li class="city">Mumbai</li>
+          <li class="city">New York</li>
+          <li class="city">Pataya</li>
+        </ul>
+        <ul class="details">
+          <h3>Weather details</h3>
+          <li>
+            <span>cloudy</span>
+            <span class="cloudy">89%</span>
+          </li>
+
+          <li>
+            <span>Humidity</span>
+            <span class="humdity">95%</span>
+          </li>
+          <li>
+            <span>Wind</span>
+            <span class="wind"> 52% </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
