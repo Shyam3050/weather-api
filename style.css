@@ -5,7 +5,6 @@
 }
 .wether-api {
   position: relative;
-  background-color: red;
   background-image: url("./src/image/day/aditya-vyas-PzhmEp_aDU4-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -144,9 +143,15 @@
     overflow-y: unset;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   html {
     font-size: 12px;
+  }
+  .temp {
+    font-size: 4em;
+  }
+  .city-time h2 {
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 300px) {
