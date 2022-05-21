@@ -153,6 +153,11 @@
   .city-time h2 {
     font-size: 2em;
   }
+  .wether img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 300px) {
   .wether-api {
