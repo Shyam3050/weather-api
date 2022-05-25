@@ -22,4 +22,8 @@
 // whereAmI(52.508, 13.381);
 // whereAmI(19.037, 72.873);
 // whereAmI(-33.933, 18.474);
-fetch(`https://restcountries.eu/rest/v2/name/uk`).then( res => res.json()).then(data => console.log(data))
+
+const x = () =>
+fetch(`https://restcountries.eu/rest/v2/name/uk`).then( res => res.json()).then(data => console.log(data));
+
+x()
